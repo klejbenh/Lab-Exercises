@@ -1,0 +1,21 @@
+*{background-color: lightblue; /* global styler making background blue */}
+
+img {
+    border-radius: 40%; /* changing border of image and adding a filter to make the image more pale, 1st and 2nd css elements not learned in class */
+    filter: grayscale(40%);}
+
+#first{ /* Assigned the first block of text a local id and styled it here*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-decoration-line: underline;} 
+
+.wrapper{font-size: medium; /* Local class styling */
+text-align: center;
+padding: 25px 25px 25px 25px;
+color: green;} /* Last css styling element not learned in class, how to change text color */
+
+.bullets{padding: 10px; /* Local class styling */
+margin-top: 20px;
+margin-left: 20px;}
+
+.last{height: 10px; /* Local class styling */
+width: 25px;}
